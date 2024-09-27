@@ -57,14 +57,14 @@ ggplot(dt_plot ,
         axis.text.y = element_text(size=10),
         panel.background = element_rect(fill = "white",
                                         #colour = "lightblue",
-                                        size = 0.2, linetype = "solid"),
-        panel.grid.major = element_line(size = 0.2, linetype = 'solid',
+                                        linewidth = 0.2, linetype = "solid"),
+        panel.grid.major = element_line(linewidth = 0.2, linetype = 'solid',
                                         colour = "lightgrey") ,
         strip.background = element_rect(fill="white",linetype = 'solid',colour = "black"),
         strip.text = element_text(size=10),
         legend.position = c(.2,.75),
         legend.background = element_rect(fill="lightgrey", 
-                                         size=1, linetype="solid")
+                                         linewidth=1, linetype="solid")
         # panel.grid.minor = element_line(size = 0.1, linetype = 'solid',
         #                                 colour = "grey")
   ) +
