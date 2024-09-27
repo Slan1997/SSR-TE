@@ -1,3 +1,5 @@
+## Simulation for power assessment, with the exact small sample OLS test (“OLS”)
+
 ## use two fold for max sample size
 
 library(pacman)

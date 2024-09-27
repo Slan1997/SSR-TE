@@ -1,3 +1,5 @@
+## Simulation for power assessment, with the permutation test (“Permutation”)
+
 ## use two fold for max sample size
 
 library(pacman)

@@ -1,3 +1,5 @@
+## Simulation for type I error control, with the permutation test (“Permutation”)
+
 library(pacman)
 p_load(mvtnorm, # generate multivariate normal
        gsDesign, # Lan-DeMets bounds with efficacy only

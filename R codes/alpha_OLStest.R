@@ -1,10 +1,13 @@
+## Simulation for type I error control, with the exact small sample OLS test (“OLS”)
+
 library(pacman)
 p_load(mvtnorm, # generate multivariate normal
        #PwrGSD, # Lan-DeMets bounds with both efficacy and futility
        gsDesign, # Lan-DeMets bounds with efficacy only
        tidyr,dplyr,readr,magrittr
 )
-### this file was run 72 times for 72 scenarios.
+### this file was run 72 times for 72 scenarios 
+## Note: only 60 scenarios were reported in the manuscript, omitted some large sample size scenarios.
 
 # if use cluster to run
 # Sys.getenv("SLURM_ARRAY_TASK_ID") extracts array id from slurm file: "#SBATCH --array=1-72"
